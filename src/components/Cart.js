@@ -20,7 +20,6 @@ const Cart=()=>{
             </p>}
             {cartItems.length>0&&(
                 <button id="clear" onClick={handleClearCart}>Clear Cart</button>
-
             )}
         
         </div>
