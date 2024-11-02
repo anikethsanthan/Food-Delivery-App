@@ -18,7 +18,11 @@ const Cart=()=>{
             Oops!! <br></br>
             Your cart seems to be empty. Add items in your cart to proceed!!
             </p>}
-        <button id="clear" onClick={handleClearCart}>Clear Cart</button>
+            {cartItems.length>0&&(
+                <button id="clear" onClick={handleClearCart}>Clear Cart</button>
+
+            )}
+        
         </div>
 
         {/* second div */}
